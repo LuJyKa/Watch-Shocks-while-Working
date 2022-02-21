@@ -1,0 +1,118 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
+        #panel {
+            width: 270px;
+            height: 180px;
+            overflow: hidden;
+        }
+
+        #item_list {
+            overflow-y: auto;
+            height: 160px;;
+        }
+
+        input {
+            width: 100px;
+        }
+
+        li {
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        ul {
+            padding-left: 0px;
+        }
+
+        .item {
+            position: relative;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+
+        .item a.del {
+            float: right;
+            color: #3367d6;
+            text-decoration: none;
+            padding-right: 5px;
+        }
+
+        a.data {
+            color: #006699;
+        }
+
+        a.top {
+            text-decoration: none;
+            color: #3367d6;
+        }
+
+        span.percent {
+            width: 38px;
+        }
+
+        span {
+            display: inline-block;
+            width: 54px;
+        }
+
+        span.red {
+            color: #3367d6;
+        }
+
+        span.gray {
+            color: gray;
+        }
+
+        span.green {
+            color: green;
+        }
+
+        span.black {
+            color: black;
+        }
+
+        img.tip {
+            height: 100%;
+            float: left;
+        }
+
+        div.tip {
+            height: 90%;
+            overflow: hidden;
+            margin: 0 auto;
+            display: none;
+        }
+        div.tip h5{
+            float: left;
+            margin: 5px 0;
+            width: 85px;
+        }
+    </style>
+</head>
+<div id="panel">
+    <div id="add">
+        <input id="item"/>
+        <button id="add_item">add</button>
+        <button id="clear">clear</button>
+        <button id="tip">tip</button>
+    </div>
+    <div class="tip">
+        <img src="tip.png" class="tip">
+        <h5>&nbsp;</h5>
+        <h5>好用？求打赏！</h5>
+        <h5>二胡在此叩谢了！</h5>
+    </div>
+    <div id="item_list">
+        <ul>
+            <li id="last_item" hidden="hidden"></li>
+        </ul>
+    </div>
+</div>
+<div id="js">
+    <script type="text/javascript" charset="utf-8" src='jquery.js'></script>
+    <script type="text/javascript" charset="utf-8" src='finance.js'></script>
+    <script type="text/javascript" charset="utf-8" src='app.js'></script>
+</div>
+</html>

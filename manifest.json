@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "19.png",
+      "default_popup": "popup.html",
+      "default_title": "恭喜发财"
+   },
+   "description": "上班偷偷摸摸看股票,不被老板发现是王道",
+   "icons": {
+      "128": "128.png",
+      "16": "19.png",
+      "48": "48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwyBmceLF1efjU/PJhNefFcphmTImfAanCJ7tpSVe4wKA+CRHMmpH+PpkNBi4P6TH+Q96QT1QizBwiRiPMJWSj7+wh9rwLpf5wlMqqZDrtdbth1OL3myT/FDjI8R7T2Aaj180kr9ykGxsijiZgwGnfnzAdVKR+caOjOMJzGgdGMvvKZ69AlEZBK6H4G1VMmrUnEbKupGGKgI4mxZUV4JaocSiC/Oc/J4xIT8H3Ka0N5Ozgsp+4ypo2Lq02ZSu4ZEitb755OSpFYHmhaodCxzo41YRtV42eexIQDEzoV9hastjJN4OlkXVlBIQL/OXi8Mkb04Ix8z+TGnrneN9NamLpwIDAQAB",
+   "manifest_version": 2,
+   "name": "上班偷偷摸摸看股票",
+   "permissions": [ "http://smartbox.gtimg.cn/", "https://smartbox.gtimg.cn/", "http://hq.sinajs.cn/", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}
